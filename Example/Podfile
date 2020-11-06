@@ -1,0 +1,6 @@
+use_frameworks!
+target 'FetchedResultsControllerCollectionViewUpdater_Tests' do
+  pod 'FetchedResultsControllerCollectionViewUpdater', :path => '../'
+  
+  
+end
