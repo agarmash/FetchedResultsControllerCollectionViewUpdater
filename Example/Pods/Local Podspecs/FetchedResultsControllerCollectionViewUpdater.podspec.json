@@ -1,0 +1,22 @@
+{
+  "name": "FetchedResultsControllerCollectionViewUpdater",
+  "version": "0.1.0",
+  "summary": "A short description of FetchedResultsControllerCollectionViewUpdater.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Artem Garmash/FetchedResultsControllerCollectionViewUpdater",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Artem Garmash": "a.garmash.dev@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Artem Garmash/FetchedResultsControllerCollectionViewUpdater.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FetchedResultsControllerCollectionViewUpdater/Classes/**/*"
+}

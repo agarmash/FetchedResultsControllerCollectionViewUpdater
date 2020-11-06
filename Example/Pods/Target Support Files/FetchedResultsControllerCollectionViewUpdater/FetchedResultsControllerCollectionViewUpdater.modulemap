@@ -1,0 +1,6 @@
+framework module FetchedResultsControllerCollectionViewUpdater {
+  umbrella header "FetchedResultsControllerCollectionViewUpdater-umbrella.h"
+
+  export *
+  module * { export * }
+}

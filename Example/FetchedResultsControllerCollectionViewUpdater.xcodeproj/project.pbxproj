@@ -18,9 +18,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		809F1082F2EC3D35AC79A552 /* Pods-FetchedResultsControllerCollectionViewUpdater_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FetchedResultsControllerCollectionViewUpdater_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FetchedResultsControllerCollectionViewUpdater_Tests/Pods-FetchedResultsControllerCollectionViewUpdater_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B0F5BE95BD2038328ACF26D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		B8E2E88BD648FCBBDC3EF7FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		B9FE2602A9323E00FA886FC2 /* FetchedResultsControllerCollectionViewUpdater.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FetchedResultsControllerCollectionViewUpdater.podspec; path = ../FetchedResultsControllerCollectionViewUpdater.podspec; sourceTree = "<group>"; };
+		B0F5BE95BD2038328ACF26D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B8E2E88BD648FCBBDC3EF7FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B9FE2602A9323E00FA886FC2 /* FetchedResultsControllerCollectionViewUpdater.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FetchedResultsControllerCollectionViewUpdater.podspec; path = ../FetchedResultsControllerCollectionViewUpdater.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,6 @@
 				809F1082F2EC3D35AC79A552 /* Pods-FetchedResultsControllerCollectionViewUpdater_Tests.debug.xcconfig */,
 				31F4C1AA079BC42F72005E2E /* Pods-FetchedResultsControllerCollectionViewUpdater_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -147,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

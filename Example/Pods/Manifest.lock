@@ -1,0 +1,16 @@
+PODS:
+  - FetchedResultsControllerCollectionViewUpdater (0.1.0)
+
+DEPENDENCIES:
+  - FetchedResultsControllerCollectionViewUpdater (from `../`)
+
+EXTERNAL SOURCES:
+  FetchedResultsControllerCollectionViewUpdater:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FetchedResultsControllerCollectionViewUpdater: 9ac9cea988e6e1e0e6af72db87d8ba2d00a5afae
+
+PODFILE CHECKSUM: 08402fafbff9a95d6fed2028708aa3e3b37f56a6
+
+COCOAPODS: 1.9.3
