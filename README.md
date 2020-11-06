@@ -1,6 +1,6 @@
 # FetchedResultsControllerCollectionViewUpdater
 
-[![CI Status](https://img.shields.io/travis/Artem Garmash/FetchedResultsControllerCollectionViewUpdater.svg?style=flat)](https://travis-ci.org/Artem Garmash/FetchedResultsControllerCollectionViewUpdater)
+[![CI Status](https://img.shields.io/travis/agarmash/FetchedResultsControllerCollectionViewUpdater.svg?style=flat)](https://travis-ci.org/agarmash/FetchedResultsControllerCollectionViewUpdater)
 [![Version](https://img.shields.io/cocoapods/v/FetchedResultsControllerCollectionViewUpdater.svg?style=flat)](https://cocoapods.org/pods/FetchedResultsControllerCollectionViewUpdater)
 [![License](https://img.shields.io/cocoapods/l/FetchedResultsControllerCollectionViewUpdater.svg?style=flat)](https://cocoapods.org/pods/FetchedResultsControllerCollectionViewUpdater)
 [![Platform](https://img.shields.io/cocoapods/p/FetchedResultsControllerCollectionViewUpdater.svg?style=flat)](https://cocoapods.org/pods/FetchedResultsControllerCollectionViewUpdater)
@@ -8,7 +8,7 @@
 
 ## Description
 
-A simple way to deal with the abcense of beginUpdates() and endUpdates() methods in UICollectionView.
+A simple way to deal with the abcense of `beginUpdates()` and `endUpdates()` methods in UICollectionView.
 Provides an implementation of NSFetchedResultsControllerDelegate for updating UICollectionView contents.
 
 ## Usage example
@@ -56,7 +56,7 @@ pod 'FetchedResultsControllerCollectionViewUpdater'
 
 ## Author
 
-Artem Garmash, a.garmash.dev@gmail.com
+Artem Garmash, [agarmash.com](https://agarmash.com)
 
 ## License
 
