@@ -5,11 +5,45 @@
 [![License](https://img.shields.io/cocoapods/l/FetchedResultsControllerCollectionViewUpdater.svg?style=flat)](https://cocoapods.org/pods/FetchedResultsControllerCollectionViewUpdater)
 [![Platform](https://img.shields.io/cocoapods/p/FetchedResultsControllerCollectionViewUpdater.svg?style=flat)](https://cocoapods.org/pods/FetchedResultsControllerCollectionViewUpdater)
 
-## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+## Description
 
-## Requirements
+A simple way to deal with the abcense of beginUpdates() and endUpdates() methods in UICollectionView.
+Provides an implementation of NSFetchedResultsControllerDelegate for updating UICollectionView contents.
+
+## Usage example
+
+```swift
+@IBOutlet weak var collectionView: UICollectionView!
+
+lazy var collectionUpdaterDelegate: CollectionViewUpdaterDelegate = {
+    let delegate = CollectionViewUpdaterDelegate(collectionView: collectionView)
+
+    // Optionally add section name modifier
+    delegate.sectionIndexTitleForSectionName = { sectionName in
+        sectionName.uppercased()
+    }
+
+    return delegate
+}()
+
+lazy var fetchedResultsController: NSFetchedResultsController<NSManagedObject> = {
+    let frc: NSFetchedResultsController<NSManagedObject>
+
+    // FRC init and setup
+
+    frc.delegate = collectionUpdaterDelegate
+    return frc
+}()
+
+override func viewDidLoad() {
+    do {
+        try fetchedResultsController.performFetch()
+    } catch {
+        handleError(error)
+    }
+}
+```
 
 ## Installation
 
