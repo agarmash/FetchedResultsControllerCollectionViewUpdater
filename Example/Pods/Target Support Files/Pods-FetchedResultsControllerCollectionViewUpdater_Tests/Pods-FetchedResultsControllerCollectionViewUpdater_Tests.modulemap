@@ -1,6 +1,0 @@
-framework module Pods_FetchedResultsControllerCollectionViewUpdater_Tests {
-  umbrella header "Pods-FetchedResultsControllerCollectionViewUpdater_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}
